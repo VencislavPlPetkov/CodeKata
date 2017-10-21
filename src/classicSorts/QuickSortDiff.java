@@ -56,7 +56,7 @@ public class QuickSortDiff {
 			nums[j] = temp;
 			
 			
-			return 0;
+			return i + 1;
 		}
 		
 		
