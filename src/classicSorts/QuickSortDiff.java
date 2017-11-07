@@ -58,6 +58,7 @@ public class QuickSortDiff {
 			
 			return i + 1;
 		}
+		return pivot;
 		
 		
 		
