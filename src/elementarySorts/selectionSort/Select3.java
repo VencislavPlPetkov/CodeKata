@@ -16,9 +16,7 @@ public class Select3 {
 			for (int j = 0; j < nums.length; j++) {
 
 				if (nums[j] > nums[lowest]) {
-
 					lowest = j;
-
 				}
 
 				int temp = nums[lowest];
