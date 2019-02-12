@@ -48,7 +48,9 @@ const fiboIter = (n) => {
 console.log(fiboIter(8), ' fiboIter(8) - 21');
 
 
-// iterative with memorization - Dynamic Programming
+// iterative with memorization
+// aka Bottom up Dynamic Programming - the intuitive way you would normally
+// compute fibo - starting from the bottom
 const fiboMemoIter = (n) => {
 	const arr = [];
 
