@@ -12,7 +12,7 @@ const fiboRecur = (n) => {
 console.log(fiboRecur(6), ' fiboRecur(6) - 8');
 
 
-// recursion + memorization (Dynamic Programming)
+// recursion + memoization (Dynamic Programming)
 const memo = [];
 
 const fiboMemoRecur = (n) => {
@@ -48,7 +48,7 @@ const fiboIter = (n) => {
 console.log(fiboIter(8), ' fiboIter(8) - 21');
 
 
-// iterative with memorization
+// iterative with memoization
 // aka Bottom up Dynamic Programming - the intuitive way you would normally
 // compute fibo - starting from the bottom
 const fiboMemoIter = (n) => {
@@ -67,7 +67,7 @@ const fiboMemoIter = (n) => {
 console.log(fiboMemoIter(9), ' fiboMemoIter(9) - 34');
 
 
-// memorization + recursion + passing arr as param
+// memoization + recursion + passing arr as param
 const fiboMemoRecursion = (n, mem) => {
 	mem = mem || [];
 
